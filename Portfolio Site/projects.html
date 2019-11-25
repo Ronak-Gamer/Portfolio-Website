@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>
+    	My Projects!
+    </title>	
+   <link rel="stylesheet" href = "index.css">
+   <link rel="stylesheet" href = "projects.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="capture.png" type="image/png" sizes="16x16">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <link rel="stylesheet" href="swiper.min.css">
+</head>
+<body>
+	<script>
+    AOS.init({
+      offset:400,
+      duration:1000
+    });
+  </script>
+	<div class="bgholder">
+<header class="head">
+  <div class="logo">
+    <img src = "capture.png">
+  </div>
+  <div class="menu">
+    <ul>
+      <li>| <a href = "index.html">Home</a> |</li>
+      <li  class="active">| <a href = "#">My Projects</a> |</li>
+      <li>| <a href = "contact.html">Contact Me</a> |</li>
+      <li>| <a href = "about.html">About Me</a> |</li>
+    </ul>
+  </div>
+</header>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(amazon.png);"></div>
+      <div class="swiper-slide" style="background-image:url(gc.png)"></div>
+      <div class="swiper-slide" style="background-image:url(google.png)"></div>
+      <div class="swiper-slide" style="background-image:url(ytmusic.png)"></div>
+      <div class="swiper-slide" style="background-image:url(wp.png)"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <div class="last-one">
+  	<h3><center>Created Same Pages Like :- ☝</center></h3>
+  </div>
+  <script src="swiper.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'flip',
+      grabCursor: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</div>
+<div class="footer">
+    <div class="left">
+    <p><bla class = "color">RONAK LALA |</bla><br>
+    <i>Copyright 2019. All Rights Reserved</i></p>
+  </div>
+  <div class="right">
+     <a href = "https://www.facebook.com/ronak.lala.334"><i class="fa fa-facebook-square" aria-hidden="true" color = "dodgerblue"></i></a>
+      <a href = "https://twitter.com/gamer_ronak"><i class="fa fa-twitter-square" aria-hidden="true" color = "dodgerblue"></i></a>
+      <a href = "https://www.instagram.com/developer_boi/"><i class="fa fa-instagram" aria-hidden="true" color = "dodgerblue"></i></a>
+      <a href = "https://www.youtube.com/channel/UCz5eXXlMFqg0mApkF9MQFBA"><i class="fa fa-youtube-play" aria-hidden="true" color = "dodgerblue"></i></a>
+  </div>
+  </div>
+</body>
+</html>

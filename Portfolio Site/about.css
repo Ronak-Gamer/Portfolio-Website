@@ -1,0 +1,203 @@
+     .bgholder {
+  background-image: url("index.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-size: 100%;
+  box-shadow: inset -360px 200px 200px #000000;
+} 
+.logo2 {
+  background-image: url("capture.png");
+}
+.about-me {
+  height: 450px;
+  width:650px;
+  border-radius: 15px;
+  margin-left: 350px;
+}
+.section-left {
+  float: left;
+  height: 452px;
+  width: 300px;
+  border-radius: 15px;
+}
+.section-right{
+  float: right;
+  height: 452px;
+  width: 341px;
+  border-radius: 15px;
+}
+.section-left .top-img {
+  height: 355px;
+  width: 310px;
+  border-top-left-radius: 15px;
+  background-image: url("dp.jpg");
+  background-size: cover;
+}
+.section-left .btm-info {
+  height: 82px;
+  width: 290px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.section-left .btm-info h2 {
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 5px;
+  text-align: center;
+}
+.section-left .btm-info h4 {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: red;
+}
+.section-right .top-info {
+  height: 225px;
+  width: 340px;
+  border-top-right-radius: 15px;
+  background-color: #8000DE;
+  border-bottom: 1px solid white;
+  opacity: 0.8;
+}
+.section-right .btm-text {
+  height: 225px;
+  width: 340px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #8000DE;
+}
+.section-right .top-info i p{
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 30px;
+  z-index: 1;
+}
+.section-right .btm-text i font{
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 30px;
+  z-index: 1;
+}
+.section-right .btm-text ul{
+  list-style-type: circle;
+  color: #FF1D1D;
+  font-family: sans-serif;
+  font-style: none;
+  line-height: 25px;
+  margin-top: -5px;
+  justify-content: center;
+}
+.section-right .btm-text ul li {
+  margin-left: 100px;
+  font-weight: 800;
+}
+.footer {
+  background-color: black;
+  margin-top: 180px;
+}
+@media screen and (max-width: 1080px) {
+  .about-me {
+  height: 250px;
+  width:390px;
+  border-radius: 15px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.section-left {
+  float: left;
+  height: 252px;
+  width: 150px;
+  border-radius: 15px;
+}
+.section-right{
+  float: right;
+  height: 252px;
+  width: 180px;
+  border-radius: 15px;
+}
+.section-left .top-img {
+  height: 355px;
+  width: 210px;
+  border-top-left-radius: 15px;
+  background-image: url("dp.jpg");
+  background-size: cover;
+}
+.section-left .btm-info {
+  height: 82px;
+  width: 210px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.section-left .btm-info h2 {
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 5px;
+  text-align: center;
+}
+.section-left .btm-info h4 {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: red;
+}
+.section-right .top-info {
+  height: 225px;
+  width: 240px;
+  border-top-right-radius: 15px;
+  background-color: #8000DE;
+  border-bottom: 1px solid white;
+  opacity: 0.8;
+}
+.section-right .btm-text {
+  height: 225px;
+  width: 240px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #8000DE;
+}
+.section-right .top-info i p{
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 25px;
+  z-index: 1;
+}
+.section-right .btm-text i font{
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 20px;
+  z-index: 1;
+}
+.section-right .btm-text ul{
+  list-style-type: circle;
+  color: #FF1D1D;
+  font-family: sans-serif;
+  font-style: none;
+  line-height: 25px;
+  margin-top: -5px;
+  justify-content: center;
+}
+.section-right .btm-text ul li {
+  margin-left: 50px;
+  font-weight: 800;
+}
+}
+@media screen and (max-width: 768px) {
+  .about-me {
+  height: 250px;
+  width:390px;
+  border-radius: 15px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ronak Developer!</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="capture.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <style>
+       .bgholder {
+  background-image: url("index.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-size: 100%;
+  box-shadow: inset -360px 200px 200px #000000;
+} 
+.logo2 {
+  background-image: url("capture.png");
+}
+    </style>
+  </head>
+  <body>
+  	 <script>
+    AOS.init({
+      offset:400,
+      duration:1000
+    });
+  </script>
+    <div class="bgholder">
+<header class="head">
+  <div class="logo">
+    <img src = "capture.png">
+  </div>
+  <div class="menu">
+    <ul>
+      <li class="active">| <a href = "#">Home</a> |</li>
+      <li>| <a href = "projects.html">My Projects</a> |</li>
+      <li>| <a href = "contact.html">Contact Me</a> |</li>
+      <li>| <a href = "about.html">About Me</a> |</li>
+    </ul>
+  </div>
+</header>
+<div class="myname">
+  Ronak Lala<br>
+  </div>
+    <div id="text">
+    </div><br>
+    <div class="logo2">
+    	<img src="capture.png">
+    </div>
+
+<script type="text/javascript">
+  var i=0,text,j;
+  text = "I am a Developer & Designer!"
+
+  function typing() {
+    if(i<text.length){
+      document.getElementById("text").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typing,150);
+    }
+  }
+  typing();
+</script>
+</div><br>
+<div class="pl">
+  <h2 data-aos = "fade-left">&nbsp;Programming Languages That I know:-</h2>
+  <ul class="list-1" data-aos = "fade-left">
+    <li>
+      <div class="list-item">
+        <img src = "html.png">
+      </div>
+      <div class = "tag">
+        HTML
+      </div>
+    </li>
+    <li>
+      <div class="list-item">
+        <img src = "css.png">
+      </div>
+      <div class = "tag">
+        CSS
+      </div>
+    </li>
+    <li>
+      <div class="list-item">
+        <img src = "js.png">
+      </div>
+      <div class = "tag">
+        Javasript
+      </div>
+    </li>
+    <li>
+      <div class="list-item">
+        <img src = "php.png">
+      </div>
+      <div class = "tag">
+        PHP
+      </div>
+    </li>
+  </ul><br><br>
+  <ul class="list-2" data-aos = "fade-right">
+    <li>
+      <div class="list-item">
+        <img src = "mysql.png">
+      </div>
+      <div class = "tag">
+        MYSQL
+      </div>
+    </li>
+    <li>
+      <div class="list-item">
+        <img src = "c.png">
+      </div>
+      <div class = "tag">
+        C
+      </div>
+    </li>
+    <li>
+      <div class="list-item">
+        <img src = "c++.png">
+      </div>
+      <div class = "tag">
+        C++
+      </div>
+    </li>
+  </ul>
+  </div><br>
+  <div class="about"  data-aos = "fade-in">
+  	<div class="section">
+  	<h3>WANNA SEE MORE?</h3>
+  	<a href = "about.html"><button class="btn">About Me</button></a>
+  </div>
+  </div>
+  <div class="form"  data-aos = "fade-right">
+  	<div class="heading">
+  		<h2><center>Leave a Message!</center></h2>
+  		<form>
+  			Name :- <bla class = "bla">*</bla class = "bla"><br>
+  			<input type="name" placeholder="Enter Your Name!" required><br><br>
+  			Email Addresss  :- <bla class = "bla">*</bla class = "bla"><br>
+  			<input type="Email" placeholder="Enter Your Email Addresss" required><br><br>
+  			Phone Number :- <bla class = "bla">*</bla class = "bla"><br>
+  			<input type="number" placeholder="Enter Your Phone Number" required><br><br>
+  			Message :- <bla class = "bla">*</bla class = "bla"><br>
+  			<textarea type="text" placeholder="Enter Your Message" class = "message-box" required></textarea><br><br>
+  			<input type="submit" value="Submit" onclick="show()">
+  			<script>
+  				function show() {
+  					alert("Thanks For sending us a Message!");
+  				}
+  			</script>
+  		</form>
+  	</div>
+  </div><br>
+  <div class="footer">
+  	<div class="left">
+  	<p><bla class = "color">RONAK LALA |</bla><br>
+  	<i>Copyright 2019. All Rights Reserved</i></p>
+  </div>
+  <div class="right">
+  		<a href = "https://www.facebook.com/ronak.lala.334"><i class="fa fa-facebook-square" aria-hidden="true" color = "dodgerblue"></i></a>
+  		<a href = "https://twitter.com/gamer_ronak"><i class="fa fa-twitter-square" aria-hidden="true" color = "dodgerblue"></i></a>
+  		<a href = "https://www.instagram.com/developer_boi/"><i class="fa fa-instagram" aria-hidden="true" color = "dodgerblue"></i></a>
+  		<a href = "https://www.youtube.com/channel/UCz5eXXlMFqg0mApkF9MQFBA"><i class="fa fa-youtube-play" aria-hidden="true" color = "dodgerblue"></i></a>
+  </div>
+  </div>
+  </body>
+</html>
